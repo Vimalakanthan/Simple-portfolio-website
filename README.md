@@ -20,7 +20,7 @@ CSS3
 
 
 🔗 Live Demo
-View Live Site  
+View Live Site ( https://vimalakanthan.github.io/Simple-portfolio-website/) 
 
 📬 Contact
 If you'd like to connect, feel free to reach out via:
