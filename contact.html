@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Me</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px;
+      background-color: #111;
+      color: white;
+    }
+
+    header a {
+      color: #00adb5;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 500px;
+      background: white;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 12px;
+     
+    }
+
+    .container h2 {
+      text-align: center;
+      color: #222;
+      margin-bottom: 20px;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    form input[type="submit"] {
+      background-color: #00adb5;
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      
+    }
+
+    form input[type="submit"]:hover {
+      background-color: #007c84;
+    }
+
+    .social-links {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .social-links a {
+      color: #00adb5;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      padding: 20px;
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <h1> Vimalakanthan</h1>
+    <p>Web & App Developer</p>
+    <a href="index.html"><p>Home</p></a>
+  </header>
+
+  <div class="container">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" placeholder="Your message" required></textarea>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </div>
+
+  <div class="social-links">
+    <p>Follow Me:</p>
+    <a href="https://www.instagram.com/__v1mal_?igsh=b2EzN2NkaHR4ZjVp" target="_blank">Instagram</a>
+    <a href="https://www.linkedin.com/in/vimalakanthan" target="_blank">LinkedIn</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Vimalakanthan. All rights reserved.
+  </footer>
+
+</body>
+</html>
